@@ -427,6 +427,12 @@ h6 {
       height: 88px; } }
   @media screen and (min-width: 1280px) {
     .button {
+      font-size: 32px;
+      line-height: 40px;
+      width: 550px;
+      height: 108px; } }
+  @media screen and (min-width: 1900px) {
+    .button {
       font-size: 40px;
       line-height: 48px;
       width: 720px;
@@ -441,6 +447,9 @@ h6 {
     .header {
       height: 80px; } }
   @media screen and (min-width: 1280px) {
+    .header {
+      height: 100px; } }
+  @media screen and (min-width: 1900px) {
     .header {
       height: 121px; } }
   .header__inner {
@@ -552,6 +561,12 @@ h6 {
         .header__nav-item {
           margin: 0 30px; } }
       @media screen and (min-width: 1280px) {
+        .header__nav-item {
+          font-size: 26px;
+          line-height: 33px;
+          padding: 0 15px;
+          margin: 0 30px; } }
+      @media screen and (min-width: 1900px) {
         .header__nav-item {
           font-size: 32px;
           line-height: 39px;
@@ -853,9 +868,13 @@ h6 {
       padding-bottom: 50px; } }
   @media screen and (min-width: 1280px) {
     .teachers__title {
-      font-size: 65px;
-      line-height: 75px;
+      font-size: 45px;
+      line-height: 55px;
       padding-bottom: 70px; } }
+  @media screen and (min-width: 1900px) {
+    .teachers__title {
+      font-size: 65px;
+      line-height: 75px; } }
 
 .teachers__inner {
   display: -webkit-box;
@@ -915,10 +934,10 @@ h6 {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0 20px; }
-  @media screen and (min-width: 768px) {
+  margin: 0 10px; }
+  @media screen and (min-width: 960px) {
     .teachers__item {
-      margin: 0 30px; } }
+      margin: 0 20px; } }
   @media screen and (min-width: 1280px) {
     .teachers__item {
       margin: 0 55px; } }
@@ -941,12 +960,17 @@ h6 {
     line-height: 14px;
     text-align: center;
     color: #6C6C6C;
-    padding-bottom: 10px; }
+    padding-bottom: 5px; }
     @media screen and (min-width: 768px) {
       .teachers__info > span {
-        font-size: 16px;
-        line-height: 18px; } }
+        font-size: 14px;
+        line-height: 16px; } }
     @media screen and (min-width: 1280px) {
+      .teachers__info > span {
+        font-size: 16px;
+        line-height: 18px;
+        padding-bottom: 10px; } }
+    @media screen and (min-width: 1900px) {
       .teachers__info > span {
         font-size: 20px;
         line-height: 23px; } }
@@ -1019,6 +1043,11 @@ h6 {
         line-height: 50px;
         padding-bottom: 50px; } }
     @media screen and (min-width: 1280px) {
+      .request__title {
+        font-size: 45px;
+        line-height: 55px;
+        padding-bottom: 75px; } }
+    @media screen and (min-width: 1900px) {
       .request__title {
         font-size: 60px;
         line-height: 69px;
@@ -1159,9 +1188,13 @@ h6 {
       padding-bottom: 50px; } }
   @media screen and (min-width: 1280px) {
     .why__title {
-      font-size: 60px;
-      line-height: 72px;
+      font-size: 45px;
+      line-height: 55px;
       padding-bottom: 70px; } }
+  @media screen and (min-width: 1900px) {
+    .why__title {
+      font-size: 60px;
+      line-height: 72px; } }
   .why__title > span {
     color: #00FFB3; }
 
@@ -1244,6 +1277,11 @@ h6 {
         line-height: 50px;
         padding-bottom: 50px; } }
     @media screen and (min-width: 1280px) {
+      .programm__title {
+        font-size: 45px;
+        line-height: 55px;
+        padding-bottom: 75px; } }
+    @media screen and (min-width: 1900px) {
       .programm__title {
         font-size: 60px;
         line-height: 69px;
