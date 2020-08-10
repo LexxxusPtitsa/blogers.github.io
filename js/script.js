@@ -212,11 +212,7 @@
         });
       }
     });
-  }); // $('.header__toggle').on('click', function () {
-  //     $('.header__toggle').toggleClass('active');
-  //     $('.header__nav').toggleClass('active');
-  // });
-
+  });
   $(window).on('scroll', function () {
     if (pageYOffset > 0) {
       $('.header').addClass('scroll');
@@ -287,7 +283,7 @@
     }
 
     for (let i = 0; i < links.length; i++) {
-      links[i].addEventListener("click", e => e.preventDefault());
+      // links[i].addEventListener("click", (e) => e.preventDefault());
       links[i].addEventListener("mouseenter", mouseenterFunc);
     }
 
